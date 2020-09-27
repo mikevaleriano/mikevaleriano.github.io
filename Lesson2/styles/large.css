@@ -1,7 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Michroma&display=swap');
 header {
     text-align: center;
-    font-size: 30px;
 }
 
 
@@ -16,11 +15,13 @@ img {
 h1 {
     font-family: 'Michroma', sans-serif;
     color: red;
+    font-size: 80px;
 }
 
 h2 {
     font-family: 'Lato';
     font-weight: 600;
+    font-size: 24px;
 }
 
 .container {
