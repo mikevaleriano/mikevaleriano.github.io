@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Michroma&display=swap');
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    /*border: solid blanchedalmond;*/
+    border-radius: 5px;
+    box-shadow:10px 10px 25px grey;
+
+}
+
+h1 {
+    font-family: 'Michroma', sans-serif;
+}
+
+h2 {
+    font-family: 'Lato';
+}
+
+.container {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    margin: 0 auto;
+}
+
+.column {
+    text-align: center;
+}
