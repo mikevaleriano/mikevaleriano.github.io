@@ -8,7 +8,13 @@ h1 {
 
 h2 {
     font-family: 'Lato';
-    font-size: 0.5rem;
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-size: 0.25rem;
+    text-align: justify;
 }
 
 img {
@@ -18,3 +24,6 @@ img {
     box-shadow: 10px 10px 25px grey;
 }
 
+.column {
+    text-align: center;
+}
