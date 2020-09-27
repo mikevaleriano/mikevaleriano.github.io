@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Michroma&display=swap');
 
+header {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Michroma', sans-serif;
     font-size: 2.5rem;
@@ -11,6 +15,12 @@ h2 {
     font-size: 1.5rem;
 }
 
+h3 {
+    font-family: 'Lato';
+    font-size: 0.25rem;
+    text-align: justify;
+}
+
 img {
     float: center;
     max-width: 100%;
@@ -18,6 +28,6 @@ img {
     box-shadow: 10px 10px 25px grey;
 }
 
-.container { 
-    margin: 0 auto;
+.column {
+    text-align: center;
 }
