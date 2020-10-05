@@ -54,6 +54,7 @@ main{
 
 h1 {
     font-family: "Bebas Neue", sans-serif;
+    text-align: center;
 }
 img{
     max-width: 100%;
