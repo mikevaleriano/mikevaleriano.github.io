@@ -8,7 +8,7 @@ header, nav, main, footer {
 body {
     font-family: "Montserrat";
     text-align: justify;
-    padding: 1em;
+    
 }
 
 header, footer {
@@ -54,6 +54,7 @@ nav a:hover {
 main{
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1em;
 }
 
 h1 {
