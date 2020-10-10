@@ -38,11 +38,19 @@ header{
 picture {
 	margin-left: 1rem;
 	padding: 0.5rem;
-	flex: 0 1 128px; /* shorthand flex-grow, flex-shrink, and flex-basis (native image size )*/
+	flex: 0 1 100px; /* shorthand flex-grow, flex-shrink, and flex-basis (native image size )*/
 }
 picture img {
 	width: 100px;
 	height: auto;
+}
+header section {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+
 }
 /* Main content alignment*/
 
