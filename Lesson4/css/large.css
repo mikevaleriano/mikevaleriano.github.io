@@ -18,8 +18,12 @@
     img{
         margin: 0 auto;
     }
+ img {
+        padding-left: 3em;
+        }
     footer {
         display: block;
         align-items: center;
+        padding: 2%;
     }
 }
