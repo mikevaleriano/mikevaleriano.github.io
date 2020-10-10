@@ -12,7 +12,4 @@
     .navigation li:first-child {
         display: none;
     }
-    header{
-        display: block;
-    }
 }
