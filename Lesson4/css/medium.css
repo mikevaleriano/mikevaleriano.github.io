@@ -12,4 +12,10 @@
     .navigation li:first-child {
         display: none;
     }
+    header section {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        justify-content: left;
+    }
 }
