@@ -34,11 +34,12 @@ nav {
 }
 
 /* Header alignment*/
-header, footer{
+header{
     display: flex;
     flex-direction: row;
     background-color: #b2fcff;
 }
+
 .headPic {
 	flex: 0 1 100px; /* shorthand flex-grow, flex-shrink, and flex-basis (native image size )*/
 }
@@ -70,6 +71,8 @@ h3 {
     text-align: center;
     font-family: "Montserrat";
     font-size: 1em;
+    color: #066B8A;
+    font-weight: 600;
 }
 
 /* Main content alignment*/
@@ -104,5 +107,17 @@ article p {
 }
 article picture img {
     margin: 0 auto;
+
+}
+
+/* Footer Aligntment*/
+footer {
+    display: flex;
+    flex-direction: row wrap;
+    background-color: #b2fcff;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #066B8A;
 
 }
