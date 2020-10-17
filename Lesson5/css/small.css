@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+/* Responsive Menu */
+nav {
+    background-color: #5edfff;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+.responsive li {
+    display: block;
+}
+
+/* Header alignment*/
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #b2fcff;
+}
+
+.headPic {
+	flex: 0 1 100px; /* shorthand flex-grow, flex-shrink, and flex-basis (native image size )*/
+}
+.headPic img {
+	width: 100px;
+    height: auto;
+}
+.mainPic img {
+    max-width: 100%;
+}
+
+
+header section {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+h1 {
+    margin: 0.1rem;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 2.5em;
+}
+h3 {
+    margin: 0.1rem;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 1em;
+    font-weight: 600;
+}
+
+/* Main content alignment*/
+header, nav, main, footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+article{
+border: 1px solid;
+margin-top: 5%;
+}
+article div h1 {
+    background-color: lightgray;
+    padding: 5%;
+    margin: 0;
+}
+article h2 {
+    padding: 3%;
+    margin: 0.03rem;
+}
+article p {
+    padding: 3%;
+    margin: 0.03rem;
+}
+article picture img {
+    margin: 0 auto;
+
+}
+
+/* Footer Aligntment*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #b2fcff;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+
+
+}
