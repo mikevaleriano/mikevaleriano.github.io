@@ -32,19 +32,16 @@
         border-radius: 7px;
         padding: 5px;
     }
-    footer{
-        position: relative;
-    }
     .info {
-        position: relative;
-        left: 30em;
-        top: 8px;
+        margin-left: 30em;
+
     }
     .map {
         max-width: 400px;
         height: auto;
-        position: fixed;
-        top: 25em;
+        position: absolute;
+        top: 1em;
         left: 1em;
     }
+
 }
