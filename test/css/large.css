@@ -1,7 +1,10 @@
 @media only screen and (min-width: 47.5em) {
-    header, nav, footer {
-        max-width: 100%;
+
+    header {
+        justify-content: center;
     }
+
+
     .navigation {
         display: flex;
     }
@@ -15,14 +18,33 @@
     .navigation li:first-child {
         display: none;
     }
-    img{
-        margin: 0 auto;
-        padding-left: 3em;
+    main {
+        position: relative;
     }
-    footer {
-        display: block;
-        align-items: center;
-        padding: 2%;
+    .weatherSummary {
+        box-sizing: border-box;
+        position: absolute;
+        top: 7em;
+        left: 2em;
+        font-weight: 600;
+        color: black;
+        background-color: #5edfff79;
+        border-radius: 7px;
+        padding: 5px;
     }
-
+    footer{
+        position: relative;
+    }
+    .info {
+        position: relative;
+        left: 30em;
+        top: 8px;
+    }
+    .map {
+        max-width: 400px;
+        height: auto;
+        position: fixed;
+        top: 25em;
+        left: 1em;
+    }
 }

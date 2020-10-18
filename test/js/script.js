@@ -23,3 +23,7 @@ let year = actualDate.getFullYear();
 
 document.getElementById("lastUpdate").textContent = actualDay[actualDate.getDay()] + ", " + actualDate.getDate() + " " + actualMonth[actualDate.getMonth()] + " " + actualDate.getFullYear();
 document.getElementById("currentYear").textContent = year;
+
+if (actualDate.getDate() == 7) {
+    document.getElementById('announcements').innerHTML= "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+}
