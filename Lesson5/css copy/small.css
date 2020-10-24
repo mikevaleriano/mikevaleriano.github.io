@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    background-color: #b2fcff;
+    font-family: "Bebas Neue";
+    font-size: 1.7em;
+}
+header h1 {
+    margin: 20px 0 0 0;
+}
+
+.heading2 {
+    font-size: 1rem;
+    margin: 0;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Menu */
+nav {
+    width: 100%;
+    background-color: #5edfff;
+    font-family: "Montserrat";
+    font-weight: 400;
+} 
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation li {
+    display: none;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.75rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: black;
+}
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+.responsive li {
+    display: block;
+}
+
+/* Main */
+
+main {
+display: flex;
+flex-direction: column;
+padding: 5px;
+margin: 0 auto  ;
+}
+.imgWeather {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+}
+main h1 {
+    font-family: "Bebas Neue";
+}
+main h2, h3, p {
+    font-family: "Montserrat";
+    font-size: 1.1em;
+}
+h2 {
+    font-weight: 600;
+}
+article {
+    border: 1px solid;
+}
+article h1 {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #5edfff;
+    padding: 15px;
+    margin: 0;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #b2fcff;
+    position: relative;
+}
+.phoneImg{
+    position: absolute;
+    top: 4em;
+}
+.mailImg{
+    position: absolute;
+    top: 7.5em;
+}
+.phone{
+    margin: 2em;
+}
+.email{
+    margin: 2em; 
+}
+.info{
+ 
+    font-family: "Montserrat";
+}
+.copyright {
+    text-align: center;
+}
+.map{
+    width: 100%;
+}
