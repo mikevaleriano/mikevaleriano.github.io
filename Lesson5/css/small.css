@@ -72,6 +72,12 @@ margin: 0 auto  ;
     padding: 5px;
     margin: 0 auto;
 }
+.imgWeather2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+}
 main h1 {
     font-family: "Bebas Neue";
 }

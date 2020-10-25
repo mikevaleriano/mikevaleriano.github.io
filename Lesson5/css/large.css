@@ -44,4 +44,23 @@
         left: 1em;
     }
 
+    .wArticle{
+        border: 1px solid;
+        position: relative;
+        padding: 10px;
+    }
+    article {
+        display: flex;
+        flex-direction: row;
+        border: none;
+    }
+    .imgWeather2{
+        width: 467px;
+        height: auto;
+        float: right;
+        padding: 1em;
+
+    }
+
+    
 }
