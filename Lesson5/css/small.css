@@ -59,6 +59,9 @@ nav {
 }
 
 /* Main */
+article {
+    border: 1px solid;
+}
 
 main {
 display: flex;
@@ -73,10 +76,13 @@ margin: 0 auto  ;
     margin: 0 auto;
 }
 .imgWeather2 {
+
     box-sizing: border-box;
     width: 100%;
     padding: 5px;
     margin: 0 auto;
+
+
 }
 main h1 {
     font-family: "Bebas Neue";
@@ -88,9 +94,7 @@ main h2, h3, p {
 h2 {
     font-weight: 600;
 }
-article {
-    border: 1px solid;
-}
+
 article h1 {
     box-sizing: border-box;
     text-align: center;
@@ -128,4 +132,5 @@ footer {
 }
 .map{
     width: 100%;
+    border-style: none;
 }
