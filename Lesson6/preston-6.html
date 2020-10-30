@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="#">
     <script src="js/script.js" defer></script>
+    <script src="js/windChill.js" defer></script>
 </head>
 
 <body>
@@ -46,11 +47,46 @@
         <div class="weatherSummary">
             <h2>Weather Summary</h2>
             <p>Currently: Sunny</p>
-            <p>Day: 91 °F</p>
-            <p>Night: 77 °F</p>
+            <p>Now: <span id=dayTemp>50</span> °F</p>
+            <div id="windChill"></div>
+            <p>Wind Speed: <span id="windSpeed">15</span> mph</p>
             <p>Precipitation: 10%</p>
         </div>
-        <h2>Five Day Forecast</h2>
+
+        <h2 class="headForecast">Five Day Forecast</h2>
+        <div class="foreCast">
+            <div class="day">
+                <p>Day 1</p>
+                <img src="images/sunny.png" alt="weatherDay-1">
+                <p>Max 59 °F</p>
+                <p>Min 47 °F</p>
+            </div>
+            <div class="day">
+                <p>Day 2</p>
+                <img src="images/sunny.png" alt="weatherDay-2">
+                <p>Max 59 °F</p>
+                <p>Min 45 °F</p>
+            </div>
+            <div class="day">
+                <p>Day 3</p>
+                <img src="images/cloudy.png" alt="weatherDay-3">
+                <p>Max 50 °F</p>
+                <p>Min 42 °F</p>
+            </div>
+            <div class="day">
+                <p>Day 4</p>
+                <img src="images/e-storm.png" alt="weatherDay-4">
+                <p>Max 48 °F</p>
+                <p>Min 42 °F</p>
+            </div>
+            <div class="day">
+                <p>Day 5</p>
+                <img src="images/cloudy.png" alt="weatherDay-5">
+                <p>Max 59 °F</p>
+                <p>Min 47 °F</p>
+            </div>
+        </div>
+
         <article>
             <h3>Article Title</h3>
             <picture>

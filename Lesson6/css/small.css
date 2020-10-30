@@ -69,6 +69,16 @@ flex-direction: column;
 padding: 5px;
 margin: 0 auto  ;
 }
+.weatherSummary {
+    font-weight: 600;
+    color: black;
+    background-color: #5edfff79;
+    padding: 5px;
+    text-align: center;
+}
+.weatherSummary h2 {
+    text-decoration: underline;
+}
 .imgWeather {
     box-sizing: border-box;
     width: 100%;
@@ -101,6 +111,15 @@ article h1 {
     background-color: #5edfff;
     padding: 15px;
     margin: 0;
+}
+/* Wind Chill */
+#windChill {
+    font-family: "Montserrat";
+}
+/* Weather Forecast */
+
+.foreCast {
+    display: none;
 }
 
 /* footer */

@@ -8,34 +8,38 @@
     .navigation {
         display: flex;
     }
+
     .navigation li {
         display: block;
         flex: 1 1 auto;
     }
+
     .navigation a {
         text-align: center;
     }
+
     .navigation li:first-child {
         display: none;
     }
+
     main {
         position: relative;
     }
+
     .weatherSummary {
         box-sizing: border-box;
         position: absolute;
         top: 7em;
         left: 2em;
-        font-weight: 600;
-        color: black;
-        background-color: #5edfff79;
         border-radius: 7px;
-        padding: 5px;
+        text-align: left;
     }
+
     .info {
         margin-left: 30em;
 
     }
+
     .map {
         max-width: 400px;
         height: auto;
@@ -43,12 +47,36 @@
         top: 1em;
         left: 1em;
     }
-    .imgWeather2{
+
+    .imgWeather2 {
         width: 467px;
         height: auto;
         float: right;
         margin-right: 2em;
     }
 
-    
+    /* Weather Forecast */
+    .headForecast{
+        text-align: center;
+    }
+    .foreCast {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1.5em;
+    }
+    .day{
+        flex: 1 1 auto;
+        text-align: center; 
+        padding: 1rem;
+        background-color: #5edfff79;
+
+    }
+    .day p {
+        margin: 0.2em 0 0 0;
+        
+    }
+
+
+
 }
