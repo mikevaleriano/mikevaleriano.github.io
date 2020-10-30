@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
 body {
     margin: 0;
 }
@@ -13,6 +14,7 @@ header {
     font-family: "Bebas Neue";
     font-size: 1.7em;
 }
+
 header h1 {
     margin: 20px 0 0 0;
 }
@@ -21,6 +23,7 @@ header h1 {
     font-size: 1rem;
     margin: 0;
 }
+
 header img {
     width: 100px;
     height: 100px;
@@ -32,19 +35,23 @@ nav {
     background-color: #5edfff;
     font-family: "Montserrat";
     font-weight: 400;
-} 
+}
+
 .navigation {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .navigation li {
     display: none;
 }
+
 .navigation li:first-child {
     display: block;
 }
-.navigation a{
+
+.navigation a {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -53,6 +60,7 @@ nav {
     font-weight: 600;
     color: black;
 }
+
 .navigation a:hover {
     color: white;
     background-color: black;
@@ -73,17 +81,19 @@ article {
 }
 
 main {
-display: flex;
-flex-direction: column;
-padding: 5px;
-margin: 0 auto  ;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 auto;
 }
+
 .imgWeather {
     box-sizing: border-box;
     width: 100%;
     padding: 5px;
     margin: 0 auto;
 }
+
 .imgWeather2 {
 
     box-sizing: border-box;
@@ -93,13 +103,18 @@ margin: 0 auto  ;
 
 
 }
+
 main h1 {
     font-family: "Bebas Neue";
 }
-main h2, h3, p {
+
+main h2,
+h3,
+p {
     font-family: "Montserrat";
     font-size: 1.1em;
 }
+
 h2 {
     font-weight: 600;
 }
@@ -117,7 +132,7 @@ article p {
 }
 
 /* Five Day Forecast */
-.foreCast{
+.foreCast {
     display: none;
 }
 
@@ -131,28 +146,35 @@ footer {
     background-color: #b2fcff;
     position: relative;
 }
-.phoneImg{
+
+.phoneImg {
     position: absolute;
     top: 4em;
 }
-.mailImg{
+
+.mailImg {
     position: absolute;
     top: 7.5em;
 }
-.phone{
+
+.phone {
     margin: 2em;
 }
-.email{
-    margin: 2em; 
+
+.email {
+    margin: 2em;
 }
-.info{
- 
+
+.info {
+
     font-family: "Montserrat";
 }
+
 .copyright {
     text-align: center;
 }
-.map{
+
+.map {
     width: 100%;
     border-style: none;
 }
