@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+body {
+    margin: 0;
+}
 
 /* Header */
 header {
@@ -54,6 +57,7 @@ nav {
     color: white;
     background-color: black;
 }
+
 .responsive li {
     display: block;
 }
@@ -103,7 +107,20 @@ article h1 {
     margin: 0;
 }
 
+article p {
+    padding: 10px;
+}
+
+/* Five Day Forecast */
+.foreCast{
+    display: none;
+}
+
 /* footer */
+.contactInfo {
+    margin: 0em;
+}
+
 footer {
     width: 100%;
     background-color: #b2fcff;

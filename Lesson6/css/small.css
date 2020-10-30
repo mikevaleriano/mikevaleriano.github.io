@@ -57,6 +57,11 @@ nav {
 .responsive li {
     display: block;
 }
+/* Body */
+body {
+    margin: 0;
+}
+
 
 /* Main */
 article {
