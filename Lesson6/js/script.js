@@ -21,7 +21,7 @@ let actualDate = new Date();
 let year = actualDate.getFullYear();
 
 
-document.getElementById("lastUpdate").textContent = actualDay[actualDate.getDay()] + ", " + actualDate.getDate() + " " + actualMonth[actualDate.getMonth()] + " " + actualDate.getFullYear();
+document.getElementById("lastUpdate").textContent = actualDay[actualDate.getDay()] + ", " + actualMonth[actualDate.getMonth()] + " " + actualDate.getDate()  + " " + actualDate.getFullYear();
 document.getElementById("currentYear").textContent = year;
 
 if (actualDate.getDate() == 7) {
