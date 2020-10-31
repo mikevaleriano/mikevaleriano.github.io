@@ -54,6 +54,10 @@ nav {
     color: white;
     background-color: black;
 }
+.navigation a.active {
+    color: black;
+    background-color: #b2fcff;
+}
 .responsive li {
     display: block;
 }
